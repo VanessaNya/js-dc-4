@@ -32,7 +32,7 @@ function Card(suit, rank) {
   this.suit = suit
   this.rank = rank
   this.title = rank + ' of ' + suit
-  // this.score = scores[rank]
+  this.score = rankScores[rank]
 }
 var newCard = new Card(suits[0], ranks[0])
 console.log(newCard)
@@ -69,10 +69,6 @@ function Player(userName, hand) {
   this.name = userName
   this.hand = []
 }
-var firstPlayer = new Player('Vanessa', [suits, ranks])
-var secondPlayer = new Player('Brandon', [suits, ranks])
-console.log(firstPlayer.name, firstPlayer.hand)
-console.log(secondPlayer.name, secondPlayer.hand)
 
 /*
 

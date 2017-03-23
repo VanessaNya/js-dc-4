@@ -45,8 +45,10 @@
 //
 
 // 1. Concatenate your first and last name into a single string and console.log it
-// 2. Using `.charAt()` concatenate the 3rd, 5th and 1st letters of your full name together and console.log it
+console.log('Vanessa ' + 'Nya');
 
+// 2. Using `.charAt()` concatenate the 3rd, 5th and 1st letters of your full name together and console.log it
+console.log('Vanessa'.charAt(3) + 'Vanessa'.charAt(5) + 'Vanessa'.charAt(1));
 
 
 /**

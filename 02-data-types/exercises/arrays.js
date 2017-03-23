@@ -20,13 +20,13 @@
 
 // var myOnlyFriends = ['Moe', 'Larry', 'Curly']
 // console.log( myOnlyFriends ) // => ['Moe', 'Larry', 'Curly']
-
+//
 // Array Indexes
 // How do I get the first value in an array?
 // console.log( myOnlyFriends[0] ) // => 'Moe'
 // console.log( myOnlyFriends[1] ) // => 'Lary'
 // console.log( myOnlyFriends[2] ) // => 'Curly'
-
+//
 // Array Length
 // Always equal to the number of elements in the array
 // console.log( myOnlyFriends.length ) // => 3

@@ -13,14 +13,23 @@ Getting stuff from the DOM
 
 
 // Get #title
-var title = document.getElementById('title')
-// or docuent.querySelector('title')
+// var title = document.getElementById('title')
+// var title = document.getElementsByTagName('h1')
+var paragraph = document.getElementById('second-paragragh')
+var link = paragraph.getElementById('link')
+// top one would not work!
+var link = paragraph.querySelector('#link')
+
+
+console.log(link)
+// or document.querySelector('title')
 
 
 // Get the text of #title
-// console.log( title ) // will print the html element
-// console.log( title.textContent ) // prints the text
-// console.log( typeof title.textContent ) // string
+var title = document.querySelector('#title')
+console.log( title ) // will print the html element
+console.log( title.textContent ) // prints the text
+console.log( typeof title.textContent ) // string
 
 
 /*
@@ -30,16 +39,16 @@ Setting stuff in the DOM
 */
 
 // Change the text of #title
-// title.textContent = 'New Test Title' // replaces the current title
-// title.textContent += ' test' // adds to teh curent title
+title.textContent = 'New Test Title' // replaces the current title
+title.textContent += ' test' // adds to the current title
 
 
-// Change the styeling of an element
-// console.log( title.style ) // object representing the element's styling
-// title.style.backgroundColor = 'blue'
-// title.style.padding = '2em'
-// title.style.width = '100%'
-// title.style.textAlign = 'center'
+// Change the styling of an element
+console.log( title.style ) // object representing the element's styling
+title.style.backgroundColor = 'blue'
+title.style.padding = '2em'
+title.style.width = '100%'
+title.style.textAlign = 'center'
 
 
 /*

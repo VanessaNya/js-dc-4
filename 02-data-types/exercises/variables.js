@@ -20,13 +20,13 @@
 
 // A. Declaring a variable
 // var myFirstVariable
-
+//
 // B. Assigning a value to a variable
 // myFirstVariable = 'Hello World'
-
+//
 // Combined:
 // var mySecondVariable = 'Hello Moon'
-
+//
 
 
 //
@@ -40,7 +40,8 @@
 //3. Checking type with typeof()
 //
 // var a = 1
-// console.log( typeof( a ) ) // => 'number'
+// console.log( typeof( a ) === 'number') // => 'number'
+// console.log ( typeof a === 'number')
 
 // var b = 'hey'
 // console.log( typeof( b ) ) // => 'string'
@@ -73,10 +74,18 @@
 //
 
 // 1. Save a string into a variable and console.log it
+var allStudents = 'present'
 // 2. Save a number into a variable and console.log it
+var someNumber = 10
 // 3. Save a boolean into a variable and console.log it
+var trueOrFalse = true
 // 4. Add two numbers together and save the result to a variable
+var result = 2 + 3.14555
 // 5. Declare a variable and assign a string of your first name to it; declare another variable and assign a string of your last name to it; declare a third variable and assign it the value of the first variable + the second variable and console.log it
+var myFirstName = 'Vanessa'
+var myLastName = 'Nya'
+var fullName = 'myFirstName' + ' ' + 'myLastName'
+
 
 /**
  * ES2015

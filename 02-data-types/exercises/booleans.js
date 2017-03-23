@@ -40,7 +40,9 @@
 //
 
 // True
-// console.log ( 1 == 1 ) // => true
+// console.log ( 1 === '1' ) // => true
+// console.log(3.14 === Math.PI)
+
 
 // False
 // console.log( 4 < 2 ) // => false

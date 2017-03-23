@@ -21,20 +21,20 @@ executed before moving on!
 
 */
 
-// Declaring our first object
-// var Person = {
-//   'first name': 'Zakk',
-//   lastName: 'Fleischmann',
-//   favoriteColors: ['green', 'blue'],
-//   height: {
-//     feet: 6,
-//     inches: 4
-//   },
-//   sayHello: function( name ) {
-//     console.log( 'Hello, ' + (name || 'you') + '! Hope you are well!' )
-//   }
-// }
-
+Declaring our first object
+var Person = {
+  'first name': 'Zakk',
+  lastName: 'Fleischmann',
+  favoriteColors: ['green', 'blue'],
+  height: {
+    feet: 6,
+    inches: 4
+  },
+  sayHello: function( name ) {
+    console.log( 'Hello, ' + (name || 'you') + '! Hope you are well!' )
+  }
+}
+// left side is key, how to access our value; key acts as variables
 
 /*
 
@@ -42,19 +42,19 @@ executed before moving on!
 
 */
 
-// Getting values from our object
-// Person['first name'] // Bracket notation
-// Person.lastName // Dot notation
+Getting values from our object
+Person['first name'] // Bracket notation
+Person.lastName // Dot notation
 
-// Setting values from our object (with reassignment)
-// Person.favoriteColors = 'just green'
-// Person.height.feet = 10
-// Person['height']['inches'] = 6
+Setting values from our object (with reassignment)
+Person.favoriteColors = 'just green'
+Person.height.feet = 10
+Person['height']['inches'] = 6
 
-// console.log( Person.height )
+console.log( Person.height )
 
-// Calling methods
-// Person.sayHello()
+Calling methods
+Person.sayHello()
 
 // Creating new methods
 // Person.grow = function( inches ) {
@@ -73,7 +73,8 @@ executed before moving on!
 
 /*
 
-2. JSON
+2. JSON (uses double quotes only; doesn't use functions, just string, numbers,
+booleans, and arrays; retain your symbols;)
 
 */
 

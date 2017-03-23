@@ -41,7 +41,10 @@
   2. Using Parameters and Arguments
 
 */
-
+function sayThanks(name) {
+  console.log('Thanks' + name)
+}
+sayThanks('Obama')
 // ----------
 
 // var number = 0;
@@ -102,15 +105,15 @@
   4. Using Scope
 
 */
-
+ // notes : functions create scope
 // Scope Example 1:
 // var a = 1
 //
 // function addThree( ) {
 //   return a + 3
 // }
-
-
+//
+// addThree()
 
 
 // Scope Example 2:

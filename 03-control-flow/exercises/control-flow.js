@@ -104,6 +104,10 @@
 //   console.log( i )
 // }
 
+// for (var i = 0; i < 10; i++) {
+//   console.log(i)
+// }
+//
 // A basic `for` loop with an array
 // var grades = [87, 95.5, 40, 79, 20]
 //
@@ -118,7 +122,7 @@
 //   } else {
 //     console.log( 'D' )
 //   }
-//
+// //
 // }
 
 // A more condensed `for` loop for working with arrays
@@ -148,19 +152,19 @@
 //   console.log( x )
 //   x--;
 // }
-
+//
 // console.log( 'for loop' )
 // for ( var i = 10; i > 0; i-- ) {
 //   console.log( i );
 // }
-
-// A `do while` loop
+//
+// // A `do while` loop
 // var i = 0
 // do {
 //   console.log( i )
 //   i++
 // } while ( i < 0 );
-
+//
 // var j = 0
 // while ( j < 0 ) {
 //   console.log( j )
