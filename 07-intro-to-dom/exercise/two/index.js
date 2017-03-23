@@ -14,42 +14,42 @@ Before you get started, you should familiarize yourself with the HTML document t
 Get the DOM nodes for the table of contents and the article body and save them both as variables
 
 */
-
-
+var aside = document.querySelector('#table-of-contents')
+var section = document.querySelector('#article-body')
 
 /*
 
 get an array of every heading in the document and store them in a variable called documentHeadings
 
 */
-
-
+var documentHeadings = document.getElementsByTagName('h1, h2')
 
 /*
 
 To generate our table of contents we need to do a couple of things:
 
 1. We need to loop through our documentHeadings array
-2. Inside our loop, we need to clone the curent element from the documentHeadings array and append it to the table of contents element
+2. Inside our loop, we need to clone the current element from the documentHeadings array and append it to the table of contents element
 
 */
-
-
+// var = clone
+for (i = 0; documentHeadings.length; i++) {
+  $('#documentHeadings').clone().appendTo('#table-of-contents')
+}
 
 /*
 
 Bonus, make each item of the ToC a link to that heading on the page.
 
 */
-
+// didn't quite understand the question.
 /*
 
 1. Modify each heading on the page so that it has a unique id (or figure out a way to make this part of your loop in part 2! Bonus bonus!)
 
 */
-
-
-
+var heading = document.querySelector('.heading')
+heading.textContent = '#main-heading'
 /*
 
 While looping through each item in your documentHeadings array:
