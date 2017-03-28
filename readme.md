@@ -10,7 +10,7 @@ Once you're upstairs, tell the folks at the front desk you're here for your firs
 
 ## Office Hours
 
-Zakk: Sundays from 3:30 - 5:30
+Zakk: Sundays from 3:00 - 5:00
 
 Christine: Wednesdays from 5:30 to 7:30
 
@@ -97,7 +97,7 @@ Data types are the most atomic unit of any program. Javascript has many basic da
 - [Lesson](https://www.youtube.com/watch?v=_cZPOUf5Ddg)
 
 ### Class 03: Control Flow
-Programming is often described as following a recipe - in this lesson, we discuss why it's more nuanced than that by looking at control flow - ways we can control what code gets executed and the conditions under which it gets executed. 
+Programming is often described as following a recipe - in this lesson, we discuss why it's more nuanced than that by looking at control flow - ways we can control what code gets executed and the conditions under which it gets executed.
 
 #### Learning Objectives
 - Fork a repository and make a pull request
@@ -108,9 +108,10 @@ Programming is often described as following a recipe - in this lesson, we discus
 - [Slides](https://ga-students.github.io/js-dc-4/03-control-flow)
 - [Assignment](03-control-flow/assignment/assignment.md)
 - [Lesson Notes](03-control-flow/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=KO0SdPEt044)
 
 ### Class 04: Functions
+Now that we know how to work with data and control when certain actions are performed by our program, we need a way to encapsulate code so we can reuse it. Functions let us write code that will perform an action whenever we ask it to do so.
 
 #### Learning Objectives
 - Understand what functions are and how, when and why to use them
@@ -123,9 +124,10 @@ Programming is often described as following a recipe - in this lesson, we discus
 - [Slides](https://ga-students.github.io/js-dc-4/04-functions)
 - [Assignment](04-functions/assignment.md)
 - [Lesson Notes](04-functions/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=89zXKZllUqI)
 
 ### Class 05: Objects
+Our final class on Javascript as a language covers Objects. This lesson will also cover Object Oriented Programming, a paradigm often held in opposition to Functional Programming, which we talked about in the last class.
 
 #### Learning Objectives
 - Create and modify JavaScript Objects
@@ -136,18 +138,20 @@ Programming is often described as following a recipe - in this lesson, we discus
 - [Slides](https://ga-students.github.io/js-dc-4/05-objects)
 - [Assignment](05-objects/assignment.md)
 - [Lesson Notes](05-objects/lesson_plan.md)
-
+- [Lesson](https://www.youtube.com/watch?v=5jAj3ZullDA)
 
 ### Class 06: Lab
+Today's lesson is short and sweet! We'll go over npm and breaking our program out into multiple files then give you the rest of the time to work on the lab!
 
 #### Lab
-- [js-dc-4-Lab01](https://github.com/ga-students/js-dc-4-Lab01)
+- [js-dc-4-Lab01](https://github.com/ga-students/JS-DC-4-Lab01)
 
 #### Materials
 - [Slides](https://ga-students.github.io/js-dc-4/06-lab)
 - [Assignment](06-lab/assignment.md)
 - [Lesson Notes](06-lab/lesson_plan.md)
-
+- [Mini-lessons](https://www.youtube.com/watch?v=zAUKqWrwV3A)
+- [Lab walk through](https://www.youtube.com/watch?v=QXXGT0-Mz-M&feature=youtu.be)
 
 ### Class 07: Intro to the DOM
 
@@ -160,19 +164,21 @@ Programming is often described as following a recipe - in this lesson, we discus
 - [Slides](https://ga-students.github.io/js-dc-4/07-intro-to-dom)
 - [Assignment](07-intro-to-dom/assignment.md)
 - [Lesson Notes](07-intro-to-dom/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=YO3987ePPB8)
 
 
 ### Class 08: Events
+Today's class goes in depth on event driven development, responding to browser/user events with Javascript  and writing event handlers.
 
 #### Learning Objectives
 - Implement events using JavaScript
-- Understand Templating, template methods and template helpers
-- Work with both events and templates
+- Understand how to work with events and how to implement event handlers
+- Learn about event propogation
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc-4/08-events-and-templating)
-- [Assignment](08-events-and-templating/assignment/)
-- [Lesson Notes](08-events-and-templating/lesson_plan.md)
+- [Slides](https://ga-students.github.io/js-dc-4/08-events)
+- [Assignment](08-events/assignment/)
+- [Lesson Notes](08-events/lesson_plan.md)
 
 
 ### Class 09: Templating & Build Tools

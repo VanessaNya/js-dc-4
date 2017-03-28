@@ -14,6 +14,7 @@ Getting stuff from the DOM
 
 // Get #title
 // var title = document.getElementById('title')
+<<<<<<< HEAD
 // var title = document.getElementsByTagName('h1')
 var paragraph = document.getElementById('second-paragragh')
 var link = paragraph.getElementById('link')
@@ -22,6 +23,8 @@ var link = paragraph.querySelector('#link')
 
 
 console.log(link)
+=======
+>>>>>>> 284fc95f1971dcdba0abf91eebcf1af4763d6cfa
 // or document.querySelector('title')
 
 
@@ -57,12 +60,12 @@ Creating DOM elements
 
 */
 
-var link = document.createElement('a') // creates a new element (in memory)
-link.href = "/" // sets the href property of the <a> element
-link.id = 'myLink' // sets the ID property
-link.textContent = "This is a link I made"
-
-console.log( link ) // <a href="/" id="myLink">This is a link I made</a>
+// var link = document.createElement('a') // creates a new element (in memory)
+// link.href = "/" // sets the href property of the <a> element
+// link.id = 'myLink' // sets the ID property
+// link.textContent = "This is a link I made"
+//
+// console.log( link ) // <a href="/" id="myLink">This is a link I made</a>
 
 /*
 
@@ -72,7 +75,7 @@ via append, remove
 */
 
 // Appending
-document.getElementById('first-paragraph').appendChild( link )
+// document.getElementById('first-paragraph').appendChild( link )
 // link will be appended (added to the end) as a child (so within the p element)
 
 

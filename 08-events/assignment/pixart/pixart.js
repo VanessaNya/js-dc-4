@@ -7,22 +7,25 @@ In this exercise, students will build out a simple paint application. This appli
 
 */
 
-
-
 /*
 
 Step 1: Building the canvas
-Our canvas is 500px by 500px and we need to fill it with cells (wich a class of .square) that are 10px by 10px.
+Our canvas is 500px by 500px and we need to fill it with cells (with a class of .square) that are 10px by 10px.
 
 First, add however many divs with a class of "square" as you need to to fill our the #canvas element.
 
 If #canvas is 500 x 500, how many 10 x 10 squares can we fit in to it?
 
-How we we create elements in JavaScript and add them to the page?
+How we create elements in JavaScript and add them to the page?
 
 */
+// var tag = document.createElement('<div class=square</div>')
+// var element = document.getElementById('#canvas')
+// element.appendchild(tag)
 
-
+for (i = 0; i < 5000; i++) {
+  $('#canvas').append('<div class=square></div>')
+ }
 
 /*
 
@@ -39,7 +42,22 @@ hints:
 
 */
 
+var button = $('#set-color')
+var inputBox = $('#color-field')
+var mouseBrush = $('.brush')
 
+// var currentColor = document.getElementById('#color-field')
+// button.onclick = function changeColor() {
+//   var currentColor = inputBox.val()
+//   event.preventDefault()
+// }
+
+button.on('click', changeColor)
+
+function changeColor() {
+  mouseBrush.css('background', inputBox.val())
+   event.preventDefault()
+ }
 
 /*
 
@@ -51,3 +69,9 @@ Hints:
 (2) think about what event we might want to attach our event handler too; what mouse events are there that might make sense?
 
 */
+
+$('.square').on('mouseover', changeBackgroundColor)
+
+function changeBackgroundColor() {
+  $(this).css('background', inputBox.val())
+ }

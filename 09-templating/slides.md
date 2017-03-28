@@ -21,13 +21,14 @@
 ## Looking Ahead
 
 | Lesson No. |        Topic             |
-| ---------- | -----------------------  |
+| ---------- | ------------------------ |
 |     07     | Intro to the DOM         |
 |     08     | Events                   |
-|   **09**   | **MVC Architecture**     |
+|   **09**   | **Templating & Build Tools** |
 |     10     | Express                  |
-|     11     | CRUD & DBs               |
-|     12     | APIs                     |
+|     11     | Databases & CRUD         |
+|     11     | APIs                     |
+|     12     | Application Architecture |
 |     13     | Lab #2                   |
 
 ---
@@ -51,36 +52,6 @@
 ---
 ## Warmup Exercise
 Refactor slideshow to respond to events
-
----
-## MVC
-Model - View - Controller
-
---
-### Model
-- the data of our application
-- application's resources
-- each "thing" gets a model
-
---
-### View
-- what the user sees
-- the user interface for our application
-
---
-### Controller
-- where we knit our models and views together
-- our business logic
-
---
-## MVC in Sum
-
-|             |                  |
-| ----------  | ---------------- |
-| Model:      | Application Data |
-| View:       | User Interface   |
-| Controller: | Business Logic   |
-|             |                  |
 
 ---
 ## Views (and Templating)
@@ -132,9 +103,6 @@ h2 By #{author}
 --
 ### Up and Running with Handlebars
 http://tryhandlebarsjs.com/
-
---
-### Turning Handlebars into Views
 
 --
 ### Adding a model

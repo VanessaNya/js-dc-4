@@ -9,6 +9,7 @@
   2. Using Parameters and Arguments
   3. Return values
   4. Using Scope
+  5. Using Functions
 
 */
 
@@ -41,13 +42,18 @@
   2. Using Parameters and Arguments
 
 */
+<<<<<<< HEAD
 function sayThanks(name) {
   console.log('Thanks' + name)
 }
 sayThanks('Obama')
 // ----------
+=======
 
-// var number = 0;
+>>>>>>> 284fc95f1971dcdba0abf91eebcf1af4763d6cfa
+
+// // ----------
+// var number = 0
 // function addOneToNumber() {
 //   number += 1
 // }
@@ -57,7 +63,7 @@ sayThanks('Obama')
 // }
 
 
-// ----------
+// // ----------
 // function addNumbers( numOne, numTwo ) {
 //   console.log(numOne + numTwo)
 // }
@@ -84,11 +90,11 @@ sayThanks('Obama')
 // var number = 0
 //
 // function addNumber( adder ) {
-//   number += adder;
+//   number += adder
 // }
 //
 // addNumber( 5 )
-// // => number = 5;
+// // => number = 5
 //
 // // Output
 // function addNumbers( num1, num2 ) {
@@ -110,25 +116,17 @@ sayThanks('Obama')
 // var a = 1
 //
 // function addThree( ) {
-//   return a + 3
+//   console.log( a + 3 )
 // }
 //
 // addThree()
 
 
 // Scope Example 2:
-// function addNumbers( num1, num2) {
-//   var a = num1
-//   var b = num2
-//
-//   return a + b
+// function myFunction() {
+//   var a = 1
 // }
 //
-// myFunction()
-//
-// for (var a = 0; a < array.length; a++) {
-//   array[a]
-// }
 // console.log( a )
 
 
@@ -140,7 +138,7 @@ sayThanks('Obama')
 // }
 
 // Scope Example 4:
-// var a = 1;
+// var a = 1
 // function firstFunction() {
 //   // do we expect this to work?
 //   var b = 2
@@ -166,3 +164,45 @@ sayThanks('Obama')
 // console.log( a )
 // console.log( b )
 // console.log( c )
+
+
+/*
+
+  5. Using Functions
+
+*/
+
+
+// Functions as variables
+var myFunction = function () {
+  console.log( 'myFunction variable' )
+}
+
+myFunction()
+
+
+/*
+
+  6. Functional Programming
+
+*/
+
+
+// Pure functions
+function isCurrentYearLeapYear() {
+
+   const year = new Date().getFullYear()
+
+   if(year % 4 !== 0) {
+     return false
+   } else if(year % 100 != 0) {
+     return true
+   } else if(year % 400 != 0) {
+     return false
+   } else {
+     return true
+   }
+
+}
+
+console.log( 'is it a leap year? ', isCurrentYearLeapYear() )
